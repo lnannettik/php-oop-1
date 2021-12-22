@@ -18,9 +18,6 @@ class Movie {
     }
 
     // METODI
-    public
-
-
 
 }
 
@@ -36,7 +33,7 @@ echo '<hr>';
 
 
 // MOVIE 2
-$movie1 = new Movie('Harry Potter e la camera dei segreti ', 'Chris Columbus', '2002', 'Harry Potter and the Chamber of Secrets');
+$movie2 = new Movie('Harry Potter e la camera dei segreti ', 'Chris Columbus', '2002', 'Harry Potter and the Chamber of Secrets');
 var_dump($movie2);
 
 
@@ -44,7 +41,7 @@ echo '<hr>';
 
 
 // MOVIE 3
-$movie1 = new Movie('Harry Potter e il prigioniero di Azkaban', 'Alfonso Cuarón', '2004', 'Harry Potter and the Prisoner of Azkaban');
+$movie3 = new Movie('Harry Potter e il prigioniero di Azkaban', 'Alfonso Cuarón', '2004', 'Harry Potter and the Prisoner of Azkaban');
 var_dump($movie3);
 
 
