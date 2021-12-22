@@ -8,36 +8,37 @@ class Movie {
     public $regista;
     public $year;
     public $titolo_originale;
-    public $actors;
-
+    
     // COSTRUTTORE
     function __construct($titolo, $regista, $year, $titolo_originale) {
         $this->titolo = $titolo;
         $this->regista = $regista;
         $this->year = $year;
-        $this->titolo_originale = $titolo_originale;
+        $this->titolo_originale = $titolo_originale;        
+        $this->setActors();
+        
     }
-
+    
     // METODI
-    function setActors($actorsArray) {
+    function setActors() {
+
+        $actorsArray = [
+            'Daniel Radcliffe as Harry Potter',
+            'Rupert Grint as Ron Weasley',
+            'Emma Watson as Hermione Granger',
+            'Robbie Coltrane as Rubeus Hagrid', 
+            'Alan Rickman as Severus Piton', 
+            'Maggie Smith as Minerva McGranitt',
+            'Tom Felton as Draco Malfoy'
+        ];
+
         $this->actors = $actorsArray;
     }
-
-    function getActors() {
-        return $this->actors
-    }
-
-    $actorsArray = [
-        'Daniel Radcliffe as Harry Potter'
-        'Rupert Grint as Ron Weasley'
-        'Emma Watson as Hermione Granger'
-        'Robbie Coltrane as Rubeus Hagrid', 
-        'Alan Rickman as Severus Piton', 
-        'Maggie Smith as Minerva McGranitt',
-        'Tom Felton as Draco Malfoy'
-    ];
- 	
-
+    
+    // public function getActors() {
+    //     return $this->actors;
+    // }
+    
 }
 
 
@@ -45,7 +46,9 @@ class Movie {
 
 // MOVIE 1
 $movie1 = new Movie('Harry Potter e la pietra filosofale', 'Chris Columbus', '2001', 'Harry Potter and the Philosopher\'s Stone');
+
 var_dump($movie1);
+
 
 
 echo '<hr>';
