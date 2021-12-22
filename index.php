@@ -36,13 +36,6 @@ class Movie {
         'Maggie Smith as Minerva McGranitt',
         'Tom Felton as Draco Malfoy'
     ];
-
-
-
-
-Saunders Triplets (giovane)[14][15][16][17] 	Daniel Radcliffe 	Daniel Radcliffe
-Toby Papworth (giovane)
-
  	
 
 }
