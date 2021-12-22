@@ -8,6 +8,7 @@ class Movie {
     public $regista;
     public $year;
     public $titolo_originale;
+    public $actors;
 
     // COSTRUTTORE
     function __construct($titolo, $regista, $year, $titolo_originale) {
@@ -18,6 +19,31 @@ class Movie {
     }
 
     // METODI
+    function setActors($actorsArray) {
+        $this->actors = $actorsArray;
+    }
+
+    function getActors() {
+        return $this->actors
+    }
+
+    $actorsArray = [
+        'Daniel Radcliffe as Harry Potter'
+        'Rupert Grint as Ron Weasley'
+        'Emma Watson as Hermione Granger'
+        'Robbie Coltrane as Rubeus Hagrid', 
+        'Alan Rickman as Severus Piton', 
+        'Maggie Smith as Minerva McGranitt',
+        'Tom Felton as Draco Malfoy'
+    ];
+
+
+
+
+Saunders Triplets (giovane)[14][15][16][17] 	Daniel Radcliffe 	Daniel Radcliffe
+Toby Papworth (giovane)
+
+ 	
 
 }
 
